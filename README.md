@@ -53,6 +53,7 @@ Change the admin password before real deployment.
 - Recommendations, payments, tracking and seller-support pages
 - BDT currency display
 ## Project Structure
+```text
 ClassyCubic_Final_FullStack/
 │
 ├── admin/
@@ -127,7 +128,7 @@ ClassyCubic_Final_FullStack/
 ├── sellers.php
 ├── shop.php
 └── tracking.php
-
+```
 ## Security basics
 Prepared statements are used for user-controlled database values, passwords use `password_hash()` / `password_verify()`, sessions protect user/admin pages, and output is escaped with `htmlspecialchars()` where appropriate.
 
