@@ -31,8 +31,8 @@ if ($conn->connect_error) {
 5. Open: http://localhost:8000
 
 ## Admin
-- URL: http://localhost:8000/admin/login.php
-- Email:admin@classycubic.com
+- URL:##http://localhost:8000/admin/login.php
+- Email:##admin@classycubic.com
 - Password:Admin@12345
 Change the admin password before real deployment.
 
