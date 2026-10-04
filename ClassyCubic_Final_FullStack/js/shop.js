@@ -1,0 +1,1 @@
+function filterCards(term){const cards=document.querySelectorAll('#categoryProducts .product-card');cards.forEach(card=>{if(term==='all'){card.style.display='block';return;}const text=card.innerText.toLowerCase();card.style.display=text.includes(term.toLowerCase())?'block':'none';});}

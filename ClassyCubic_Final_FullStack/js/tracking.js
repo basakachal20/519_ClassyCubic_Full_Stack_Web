@@ -1,0 +1,1 @@
+const range=document.getElementById('timeRange');const display=document.getElementById('timeDisplay');if(range&&display){range.addEventListener('input',()=>display.textContent='Delivery Time: '+range.value+' minutes');}

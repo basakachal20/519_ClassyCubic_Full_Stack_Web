@@ -1,0 +1,2 @@
+<?php session_start(); require __DIR__.'/../includes/db.php'; if(!isset($_SESSION['admin_id'])){header('Location: login.php');exit;} ?>
+<?php $id=(int)($_GET['id']??0);$st=mysqli_prepare($conn,"DELETE FROM products WHERE id=?");mysqli_stmt_bind_param($st,'i',$id);mysqli_stmt_execute($st);header('Location: products.php');exit;?>

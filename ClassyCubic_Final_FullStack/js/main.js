@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", () => { document.querySelectorAll(".btn-primary,.btn-secondary,.add").forEach(btn => btn.addEventListener("click", () => { btn.style.opacity="0.85"; setTimeout(()=>btn.style.opacity="1",150); })); });

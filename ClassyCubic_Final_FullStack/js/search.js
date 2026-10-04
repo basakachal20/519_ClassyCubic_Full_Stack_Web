@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const input=document.getElementById('productSearch');if(!input)return;input.addEventListener('input',()=>{const q=input.value.toLowerCase();document.querySelectorAll('.product-card').forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?'block':'none');});});
